@@ -1,1 +1,1 @@
-# personal_website_static
+# This is a staic website generator

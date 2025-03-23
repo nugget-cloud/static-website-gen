@@ -15,6 +15,7 @@ def split_nodes_delimiter(old_nodes, delimiter, text_type):
         for i in range(len(sections)):
             if sections[i] == "":
                 continue
+            
             if i % 2 == 0:
                 new_nodes.append(TextNode(sections[i] , TextType.TEXT))
             
